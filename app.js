@@ -109,6 +109,7 @@
 // var let;           
 // ==========xxxxxxxxxx==========
 
+
 // Chapter 5 
 // (Math Expression I)
 
@@ -133,6 +134,7 @@
 // alert(num)
 // ==========xxxxxxxxxx==========
 
+
 // Chapter 6 
 // (Math Expression II)
 
@@ -142,12 +144,114 @@
 // x++; // now x is 6
 
 // var x = 100;
-// x--;          // x becomes 99
+// x--;             // x becomes 99
 // console.log(x); // Output: 99
 
-var x = 50;
-var y = x++;
-console.log(y)
+// var x = 50;
+// var y = x++;
+// var y = ++x;    // Output: 51
+// console.log(y) // Output: 50
+
+// var y = 50;
+// var z = --y;
+// console.log(z)  // Output: 49
+
+// var num = 10;
+// var newNum = num--;
+// console.lof(newNum) // Output: 09
+
+// var num = 10;
+// num++
+// alert(num)
+// ==========xxxxxxxxxx==========
+
+
+// Chapter 7 
+// (Math Expression III)
+
+// var calculatedNum = 2 + (2 * 6);
+// console.log(calculatedNum) //Output: 14
+
+// var calculatednum = (2 + 2) * 6;
+// console.log(calculatednum); // output: 24 
+
+// var calculatedNum = (2 + 2) * (4 + 2);
+// console.log(calculatedNum) // output: 24
+
+// var calculatedNum = ((2 + 2) * 4) + 2;
+// console.log(calculatedNum) // output; 18
+// Explain
+// 2 + 2 = 4;
+// 4 * 4 = 16;
+// 16 + 2 =18;
+
+// 2 + 2 * 4 + 10
+// var cost = (2 + 2) * (4 + 10);
+// console.log(cost); // output: 56
+
+// 2 + 2 * 4 + 10
+// var cost = (2 * 4) + 2 + 10;
+// console.log(cost); // output: 20
+
+// 4 / 2 * 4
+// ?
+// ==========xxxxxxxxxx==========
+
+
+// Chapter 8 
+// (Concatenating Text Strings)
+
+// var num = "2" + "2";
+// console.log(num); // output: 22
+
+// var message = ("Hello," + "Dolly");
+// alert(message);
+
+// alert("33" + 3); // Output: 333
+
+// alert("pakistan"+" "+"Zindabad");
+
+// var result = "The number is " + 5;
+// alert(result)
+
+// var firstNum = "Hello, ";
+// var secondNum = "world!";
+// var result = firstNum + secondNum;
+// alert(result)
+// ==========xxxxxxxxxx==========
+
+
+// Chapter 9
+//  (Prompts)
+
+// var enterName = prompt("Enter your name")
+
+// var country = prompt("Country?", "China");
+// alert("You entered: " + country);
+
+// var yourName = prompt(Enter Your Name"); //Wrong code
+// var yourName = prompt("Enter Your Name"); //Right code 
+// alert(yourName);
+
+// var userName = prompt("What is your name?", "Ali");
+// alert(userName)
+
+// var message = "What is your favorite color?";
+// var defaultColor = "Blue";
+// var userColor = prompt(message, defaultColor);
+
+// var answer = prompt("What is your name","Ali")
+// ==========xxxxxxxxxx==========
+
+
+
+
+
+
+
+
+
+
 
 
 
