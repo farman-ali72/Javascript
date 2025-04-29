@@ -244,10 +244,88 @@
 // ==========xxxxxxxxxx==========
 
 
+// Chapter 10
+// (if statements)
+
+// var city = prompt("Enter Your City Name: ")
+// if (city == "karachi") {
+//     alert("bht garmi hai bhai karachi me ")
+// }
 
 
+// var x = 10;
+// var y = 10;
+
+// if (x === y) {
+//     let userZ = prompt("What is the value of z?");
+//     console.log("The value of z is " + userZ)
+//   }
+  
+
+// var ZipCode = 10010
+// if (ZipCode == 10010) {
+//     alert("karachi")
+// } else{
+//     alert("Please write correct city")
+// }
 
 
+// var x = 10;
+// if (x === 10 ) {
+//     var x = 20;
+// }
+// alert(x)
+// ==========xxxxxxxxxx==========
+
+
+// Chapter 11 
+// (Comparison Operators)
+
+// var a = +prompt();
+// var b = +prompt()
+// if (a !== b){
+//     alert("A brabar nh hai B kay ")
+// }
+
+
+// var a = 20;
+// var b = 10;
+// if (a >= b) {
+//     console.log("A bra hai B se")
+//   } else {
+//     console.log("a chota hai b se");
+//   }
+
+
+// var a = 20;
+// var b = 10;
+// if(a >= b){
+//     alert("G blkul bhai ap sai keh rahy ho A bra hai b se ya brabar hai B kay ")
+// }
+
+
+// var num = 10;
+// if(num !== 20){
+//     var num2 = 5;
+// }
+//   alert(num2)
+
+
+// var num1 = 5;
+// var num2 = 10;
+
+// if (num1 !== num2) {
+//   alert("Mubarak ho!");
+// }
+
+
+// var UserName = prompt("enter your name")
+// if (UserName !== "ali"){
+//     alert("match nh hua")
+// }
+// ==========xxxxxxxxxx==========
+
+    
 
 
 
