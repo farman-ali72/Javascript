@@ -1,2 +1,3 @@
-<h1>JavaScript Assignments Repository<h1/>
-
+<h2 align="center">
+    # JavaScript Assignments Repository
+</h2>
