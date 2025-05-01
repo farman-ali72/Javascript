@@ -325,19 +325,106 @@
 // }
 // ==========xxxxxxxxxx==========
 
+
+// chapter 12
+// IF ELSE & ELSE IF STATEMENT,
+// TESTING SET OF CONDITIONS
+
+
+// var chk = prompt("koi word ya num lekhain");
+
+// if (chk >= "0" && chk <= "9"){
+//     alert("ye ek number hai")
+// }
+//  else if (chk >= "A" && chk <= "Z"){
+//     alert("ye ek capital letter hai")
+//  }
+//  else if (chk >= "a" && chk <= "z"){
+//     alert("ye ek small letter hai")
+//  }
+// else{
+//     alert("ye na toh num hai or na he koi words")
+// }
+
+
+// var num1 = +prompt("first number");
+// var num2 = +prompt("Second number");
     
+// if (num1 > num2){
+//     alert("num1 bra hai num2 se")
+// }
+// else if (num1 < num2){
+//     alert("num1 chota hai num2 se ")
+// }
+// else{
+//     alert("Dno num brabar nh hai")
+// }
 
 
+// var num = +prompt("Nagative value & Positive value");
+
+// if (num > 0){
+//     alert("Positive")
+// }
+// else if (num < 0 ){
+//     alert("Negative")
+// }
+// else{
+//     alert("Zero")
+// }
 
 
+// var chk = prompt("vowel value enter kare").toLowerCase();
+
+// if (chk.length !== 1){
+//     alert("vowels lekho meri jan")
+// }
+// else{
+// if (chk === "a" || chk === "e" || chk === "i" || chk === "o" || chk === "u"){
+//     alert("true")
+// }
+// else {
+// alert("false")
+// }
+// }
 
 
+// var correctPassword = "abc123"
+// var userpassword = prompt("Enter you password");
+// if(!userpassword){
+//     alert("meri jan password toh dalo")
+// } 
+// else if(correctPassword === userpassword){
+//     alert("Mashallah bhai ap ne sai password enter kiya hai!")
+// }
+// else{
+//     alert("jan ap ne wrong password enter kiya hai SORRY!")
+// }
 
 
+// var greeting ;
+// var hour = +prompt();
 
+// if (hour < 18){
+//     alert("Good Day")
+// } else{
+//     greeting = "Good Evening"
+// }
 
-
-
-
+// var time = +prompt("Enter your time!");
+// if (time > 0 && time < 1200){
+//     alert("Assalamu alaikum GOOD MORNING!")
+// } 
+// else if(time > 1200 && time < 1700){
+//     alert("Good afternoon bhai den kase guzar rha hai ap ka!")
+// } 
+// else if(time > 1700 && time < 2100){
+//     alert("Good Evening!")
+// } 
+// else if(time > 2100 && time < 2359){
+//     alert("Good night jan ab so jao !")
+// } else{
+//     alert("bhya ap ne time ghaklat enter kiya hai ")
+// }
 
 
