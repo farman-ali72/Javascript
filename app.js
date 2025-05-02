@@ -426,5 +426,56 @@
 // } else{
 //     alert("bhya ap ne time ghaklat enter kiya hai ")
 // }
+// =================================xxx=================================
+
+// 02-05-25
+// Chapter 14 & 16 
+// ARRAYS
+
+// var firstName = [];
 
 
+// var fruits = ["Banana", "Apple", "Orange", "Mango", "Red Apple"]
+// console.log(fruits)
+
+
+// var numbers = [10,20,30,40,50,60,70,80,90]
+// console.log(numbers)
+
+
+// var truthValue = [true, false, true, false];
+// console.log(truthValue);
+
+
+// var mixedArray = [20, "Apple", 2.1, true, ]
+// console.log(mixedArray)
+
+// Question number 07 ?
+
+
+// var studentName = ["Ali", "Raza", "Hamza"];
+// var sutdentScore = [400, 450, 500];
+// var studentList = document.getElementById("student-list");
+
+// Question number 08 ?
+
+
+// var city = ["Karachi", "Lahore", "Skardu", "Multan"];
+// var mainCity = city.slice(0, 3)
+// console.log(mainCity)
+
+
+// var array = ["This ", " is ", " my ", " cat"];
+// var result = array.join(""); 
+// console.log(result)
+
+
+// var line = [];
+// line.push("ali")
+// line.push("farman")
+// line.push("raza")
+// console.log(line)
+
+// line.shift()
+// console.log(line)
+// ==========xxxxxxxxxx==========
