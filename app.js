@@ -534,3 +534,24 @@
 //     alert("aesa koi naam nhe hai")
 // }
 // ==========xxxxxxxxxx==========
+
+// chapter 17-20
+// ARRAYS AND LOOP
+
+// var emptyArray = [ [], [], [], [] ]
+// console.log(emptyArray)
+
+
+// for (var i = 1; i <= 10; i++){
+//     console.log(i)
+// }
+
+
+
+// Table tyar hai bhai ap use kr sakty ho
+
+// var tableNumber = +prompt("Enter Table Number")
+
+// for(var i = 1; i <= 10; i++){
+//     alert(tableNumber + "x" + i + "=" + (tableNumber*i))
+// }
