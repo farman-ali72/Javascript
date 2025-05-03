@@ -479,3 +479,58 @@
 // line.shift()
 // console.log(line)
 // ==========xxxxxxxxxx==========
+
+// Chapter 17 - 20
+//  (for Loops)
+
+// for (var i = 0; i < 10; i++) {
+//     console.log("Number of Loop: " + (i + 1));
+// }
+
+
+// for (var i = 0; i <= 12; i++){
+//     console.log("ye loop number hai " + i)
+// }
+
+
+// for var i = 0 i <= 4 i++ this is wrong code 
+// for (var i = 0; i <= 4; i++)
+
+
+// for (var count = 0; count <= 100; count++){
+//     console.log(count)
+// }
+
+
+// for (var i = 2; i > -1; i--){
+//     console.log(i)
+// }
+
+
+// var pet = ["cat", "dog", "rabbit"]
+// for( var i = 0; i < pet.length; i++){
+//     console.log(pet[i]);
+// }
+
+// for(var i = 0; i < 10; i++){
+//     if (i === 1){
+//         alert(i);
+//         break;
+//     }
+// }
+
+
+// var matchFound = false;
+// var nameList = ["farman", "ali", "raza", "hussain"];
+// var userInput = prompt("Enter user name");
+// for(var i = 0; i < nameList.length; i++){
+//     if(userInput === nameList[i]){
+//         alert("Shukria yahi naam hai")
+//         matchFound = true;
+//         break;
+//     }
+// }
+// if (!matchFound){
+//     alert("aesa koi naam nhe hai")
+// }
+// ==========xxxxxxxxxx==========
