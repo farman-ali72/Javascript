@@ -555,3 +555,43 @@
 // for(var i = 1; i <= 10; i++){
 //     alert(tableNumber + "x" + i + "=" + (tableNumber*i))
 // }
+// =================================xxx=================================
+
+
+// 03-05-25
+// chapter 21-25
+// STRING METHODS
+
+// 1.
+// var firstName = prompt("Enter your first name");
+// var lastName = prompt("Enter your last name");
+// var fullName = firstName + " " + lastName;
+// alert("Hello! " + (fullName))
+
+// 2.
+// var favMobile = prompt("Enter your fav mobile name:")
+// var inputLength = favMobile.length;
+
+// document.writeln("your fav mobile name is " + favMobile + "<br>")
+// document.writeln("your mobile lenght is:" + inputLength);
+
+// 3.
+// var world = "pakistan"
+// var index = world.indexOf("n")
+
+// alert(index)
+
+// 4.
+// var text = "Hello World";    
+// var lastIndex = text.lastIndexOf('l'); 
+//  console.log(lastIndex)
+
+// 5.
+//   let word = "Pakistani";
+//   let character = word.charAt(3);
+//   document.getElementById("result").innerText = + character;
+
+// 6.
+// var city = "Hyderabad";
+// var newCity = city.replace("Hyder", "Islam");
+// console.log("new city:" + newCity);
