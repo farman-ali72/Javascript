@@ -621,8 +621,7 @@
 
 // var cityName = "kaRacHi";
 // cityName = cityName.charAt(0).toUpperCase() + cityName.slice(1).toLowerCase(); 
-
-
+// ==========xxxxxxxxxx==========
 
 
 // Chapter 22-25 
@@ -685,8 +684,7 @@
 // var newStr = str.replace("1", "one"); 
 
 // var y = x.replace(/a/g, "z"); 
-
-
+// ==========xxxxxxxxxx==========
 
 
 // Chapter 26 
@@ -704,8 +702,7 @@
 // var roundedNum = Math.round(origNum); 
 
 // var roundToZero = Math.round(0.5);
-
-
+// ==========xxxxxxxxxx==========
 
 
 
@@ -719,8 +716,7 @@
 // var diceRoll = Math.floor(Math.random() * 6) + 1; 
 
 // var toss = Math.random() < 0.5 ? "Heads" : "Tails";
-
-
+// ==========xxxxxxxxxx==========
 
 
 // Chapter 28-29 
@@ -786,4 +782,118 @@
 // alert(num.toFixed(2).toString()); 
 
 // =================================xxx=================================
+
+// 10-05-25
+// chapter 31-34
+// (DATE METHODS)
+
+
+// var dayName = ["Sun", "Mon", "Tue", "Wed", "Thru", "Fri", "Sat"];
+// var now = new Date()
+// var dayOfTheWeek = now.getDay()
+// var theDayName = dayName[dayOfTheWeek];
+// console.log(theDayName)
+
+
+  
+    
+    // function showDateTime() {
+    //   var now = new Date();         
+    //   var dateTime = now.toLocaleString(); 
+    //   document.getElementById("myTime").innerHTML = dateTime; 
+    // }
+
+    // showDateTime();
+
+
+    // current date
+// var today = new Date();
+
+// day names
+// var days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+// day index (0 = Sunday, 1 = Monday, ...)
+// var dayIndex = today.getDay();
+
+// Alert the first 3 letters of the day
+// alert(days[dayIndex]);
+
+
+// current date
+// var today = new Date();
+
+// current day 
+// var day = today.getDay();
+
+// Check if it's Saturday (6) or Sunday (0)
+// if (day === 0 || day === 6) {
+//   alert("It's Fun day");
+// }
+
+
+// current date
+// var today = new Date();
+
+// current day of the month (1–31)
+// var date = today.getDate();
+
+// if (date < 16) {
+//   alert("First fifteen days of the month");
+// } else {
+//   alert("Last days of the month");
+// }
+
+
+
+// var currentDate = new Date();
+
+// Calculate milliseconds since Jan 1, 1970
+// Divide by 60000 to convert milliseconds to minutes
+// minutesSinceEpoch = currentDate.getTime() / 60000;
+
+// // result
+// alert("Minutes since Jan. 1, 1970: " + minutesSinceEpoch);
+
+
+// current time
+// var now = new Date();
+
+// current hour (0 to 23)
+// var hour = now.getHours();
+
+// Check if it's before 12 noon
+// if (hour < 12) {
+//   alert("It's AM");
+// } else {
+//   alert("It's PM");
+// }
+
+
+// // Create a Date object for 1st Ramadan (June 18, 2015)
+// var ramadanStart = new Date("01-03-2025");
+
+// var today = new Date();
+
+// var timeDifference = today - ramadanStart;
+
+// var daysPassed = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+
+// Alert the result
+// alert(daysPassed + " days have passed since 1st Ramadan, 2025");
+
+
+
+// var age = prompt("Please enter your age:");
+
+// current year
+// var currentYear = new Date().getFullYear();
+
+// Calculate birth year
+// var birthYear = currentYear - age;
+
+// Show the result in the browser
+// document.write("Your age is: " + age + "<br>");
+// document.write("Your birth year is: " + birthYear);
+// ==========xxxxxxxxxx==========
+
 
