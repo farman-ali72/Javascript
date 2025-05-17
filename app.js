@@ -897,3 +897,64 @@
 // ==========xxxxxxxxxx==========
 
 
+// chapter 35 to 38
+// (FUNCTION)
+
+
+// function showDateTime() {
+//   var now = new Date();
+//   document.write("Current Date and Time: " + now);
+// }
+// Call the function
+// showDateTime();
+
+
+// function userFullName(firstName, lastName) {
+//   var fullName = firstName + " " + lastName;
+
+//   alert("Hello, " + fullName + "!");
+// }
+
+// userFullName("Farman", "Ali");
+
+
+// function addTwoNumbers() {
+//   var num1 = +(prompt("Enter the first number:"));
+
+//   var num2 = +(prompt("Enter the second number:"));
+
+//   // Calculate the sum
+//   var sum = num1 + num2;
+
+//   // Return the sum
+//   return sum;
+// }
+
+// Call the function and show the result
+// var result = addTwoNumbers();
+// alert("The sum of the two numbers is: " + result);
+
+
+// function square(num) {
+//   return num * num;
+// }
+
+// // Example usage:
+// var result = square(5);
+// alert("The square is: " + result);
+
+
+// function showCounting(start, end) {
+//   document.write("<h3>Counting from " + start + " to " + end + ":</h3>");
+  
+//   for (var i = start; i <= end; i++) {
+//     document.write(i + "<br>");
+//   }
+// }
+
+// var startNum = parseInt(prompt("Enter the start number:"));
+// var endNum = parseInt(prompt("Enter the end number:"));
+
+// showCounting(startNum, endNum);
+// ==========xxxxxxxxxx==========
+
