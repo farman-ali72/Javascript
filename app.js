@@ -106,7 +106,7 @@
 // var @name;         // Invalid character "@"
 // var my-name;       // Hyphen not allowed
 // var new;           // Reserved keyword
-// var let;           
+// var var;           
 // ==========xxxxxxxxxx==========
 
 
@@ -957,4 +957,433 @@
 
 // showCounting(startNum, endNum);
 // ==========xxxxxxxxxx==========
+
+// // Chapter 31 to 34 
+// (Date & Time)
+
+// var currentDate = new Date();
+
+// var dateString = new Date().toString();
+
+// var currentDay = currentDate.getDay();
+
+// var today = new Date();
+// var weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+// alert("Today is: " + weekDays[today.getDay()]);
+
+// var now = new Date();
+// var currentYear = now.getFullYear();
+// var currentMonth = now.getMonth();
+// var currentDateNum = now.getDate();
+// var currentDayOfWeek = now.getDay();
+// var currentHour = now.getHours();
+// var currentMinute = now.getMinutes();
+// var currentSecond = now.getSeconds();
+// var currentMillisecond = now.getMilliseconds();
+
+// var futureDate = new Date(2020, 11, 31);
+
+// var birthday1992 = new Date(1992, 1, 2);
+
+// alert(new Date("Jan 1, 1980").getTime());
+
+// var futureYearDate = new Date();
+// futureYearDate.setFullYear(2025);
+
+// function resetToJanuary(dateObj) {
+//     dateObj.setMonth(0);
+//     return dateObj;
+// }
+
+// var midMonthDate = new Date();
+// midMonthDate.setDate(15);
+
+// function updateMinutes(dateObj) {
+//     var enteredMinutes = parseInt(prompt("Enter minutes:"), 10);
+//     dateObj.setMinutes(enteredMinutes);
+//     return dateObj;
+// }
+
+// function incrementHours(dateObj, hrs) {
+//     dateObj.setHours(dateObj.getHours() + hrs);
+//     return dateObj;
+// }
+
+// function getAgeFromDOB(dobString) {
+//     var birth = new Date(dobString);
+//     var now = new Date();
+//     var age = now.getFullYear() - birth.getFullYear();
+
+//     var monthDiff = now.getMonth() - birth.getMonth();
+//     if (monthDiff < 0 || (monthDiff === 0 && now.getDate() < birth.getDate())) {
+//         age--;
+//     }
+
+//     return age;
+// }
+
+// var inputDOB = prompt("Enter your date of birth (YYYY-MM-DD):");
+// alert("Your age is: " + getAgeFromDOB(inputDOB));
+
+
+// // Chapter 35 to 37 
+// (Functions)
+
+// function showAlert() {
+//     alert("This is an alert");
+// }
+
+// function promptUserName() {
+//     var nameInput = prompt("Enter name");
+// }
+
+// function executeFunctions() {
+//     showAlert();
+//     promptUserName();
+// }
+
+// function displayUserName() {
+//     var inputName = prompt("Enter name");
+//     alert("Your name is: " + inputName);
+// }
+// displayUserName();
+
+// function mergeValues(x, y, z) {
+//     // Do something
+// }
+// mergeValues("value1", "hello", 5);
+
+// function combineStrings(strA, strB) {
+//     var combined = strA + strB;
+// }
+
+// function computeProduct(x, y, z) {
+//     var product = x * y * z;
+// }
+
+// function calculateAverage(nums) {
+//     var total = nums.reduce((sum, n) => sum + n, 0);
+//     return total / nums.length;
+// }
+
+// function totalSum(x, y) {
+//     return x + y;
+// }
+
+// function getArrayAverage(arr) {
+//     var sum = arr.reduce((acc, val) => acc + val, 0);
+//     return sum / arr.length;
+// }
+
+// function returnTen() {
+//     return 10;
+// }
+// var result = returnTen();
+
+// function countLetters(str) {
+//     return str.length;
+// }
+
+// function updateYear(dateObj, yearVal) {
+//     dateObj.setFullYear(yearVal);
+//     return dateObj;
+// }
+
+// function determineAge(dobInput) {
+//     var birthDate = new Date(dobInput);
+//     var current = new Date();
+//     var years = current.getFullYear() - birthDate.getFullYear();
+//     if (
+//         current.getMonth() < birthDate.getMonth() ||
+//         (current.getMonth() === birthDate.getMonth() && current.getDate() < birthDate.getDate())
+//     ) {
+//         years--;
+//     }
+//     return years;
+// }
+
+// function checkNameExistence(name) {
+//     var nameList = ['zaid', 'haris', 'raza', 'abubakar', 'hassan', 'hussain', 'fatima'];
+//     return nameList.includes(name);
+// }
+
+// function repeatChar(char) {
+//     return char.repeat(10);
+// }
+
+// function reverseList(array) {
+//     return array.reverse();
+// }
+
+// function reverseDigits(num) {
+//     return parseInt(num.toString().split('').reverse().join(''));
+// }
+
+// function checkPalindrome(str) {
+//     var cleanStr = str.toLowerCase().replace(/[^a-z0-9]/g, '');
+//     return cleanStr === cleanStr.split('').reverse().join('');
+// }
+
+// function convertToTitleCase(sentence) {
+//     return sentence.split(' ').map(word =>
+//         word.charAt(0).toUpperCase() + word.slice(1)
+//     ).join(' ');
+// }
+
+// function findMinAndMax(values) {
+//     return [Math.min(...values), Math.max(...values)];
+// }
+
+// // Chapter 38 (Local vs. Global Variables)
+
+// function displayLocal() {
+//     var message = "I am a local variable";
+//     console.log(message);
+// }
+// displayLocal();
+
+// var globalMessage = "I am global";
+
+// function showGlobal() {
+//     console.log(globalMessage);
+// }
+// showGlobal();
+
+// // Chapter 39, 40 (Switch Statements)
+
+// var scoreGrade = 'B';
+
+// switch (scoreGrade) {
+//     case 'A':
+//         console.log("Excellent!");
+//         break;
+//     case 'B':
+//         console.log("Good Job!");
+//         break;
+//     case 'C':
+//         console.log("You passed.");
+//         break;
+//     case 'D':
+//         console.log("Try harder next time.");
+//         break;
+//     default:
+//         console.log("Invalid grade.");
+// }
+
+// var inputCity = prompt("Enter your city name:");
+
+// switch (inputCity.toLowerCase()) {
+//     case 'karachi':
+//         alert("Welcome to the City of Lights!");
+//         break;
+//     case 'lahore':
+//         alert("Welcome to the Heart of Pakistan!");
+//         break;
+//     case 'islamabad':
+//         alert("Welcome to the Capital!");
+//         break;
+//     default:
+//         alert("City not recognized.");
+// }
+
+
+
+
+// var day = 1;
+
+// switch (day) {
+//     case 1:
+//         console.log("Monday")
+//         break;
+//     case 2:
+//         console.log("Tuesday")
+//         break;
+//     case 3:
+//         console.log("Wednesday")
+//         break;
+//     case 4:
+//         console.log("Thrusday")
+//         break;
+//     case 5:
+//         console.log("Friday")
+//         break;
+//         case 6:
+//             console.log("Saturday")
+//             break;
+//             case 7:
+//             console.log("Sunday")
+
+//     default:
+//         break;
+// }
+// =================================xxx=================================
+
+
+// chapter 38 - 42
+// FUNCTIONS| SWITCH | WHILE.. DO-WHILE |
+
+// function power(a, b) {
+//     var result = 1;
+
+//     if (b < 0) {
+//         a = 1 / a;
+//         b = -b;
+//     }
+
+//     for (var i = 0; i < b; i++) {
+//         result *= a;
+//     }
+
+//     return result;
+// }
+
+// console.log(power(2, 3));  // Output: 8
+// console.log(power(5, -2)); // Output: 0.04
+// console.log(power(7, 0));  // Output: 1
+
+
+
+// function isLeapYear(year) {
+//     if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+//         return true; // It's a leap year
+//     } else {
+//         return false; // Not a leap year
+//     }
+// }
+
+// // Example usage
+// let year = parseInt(prompt("Enter a year:"));
+// if (isLeapYear(year)) {
+//     console.log(year + " is a leap year.");
+// } else {
+//     console.log(year + " is not a leap year.");
+// }
+
+
+
+
+// // Function to calculate average marks
+// function calculateAverage(m1, m2, m3) {
+//     return (m1 + m2 + m3) / 3;
+// }
+
+// // Function to calculate percentage
+// function calculatePercentage(m1, m2, m3) {
+//     let totalMarks = m1 + m2 + m3;
+//     let percentage = (totalMarks / 300) * 100; // assuming each subject is out of 100
+//     return percentage;
+// }
+
+// // Main function to call others and display result
+// function mainFunction() {
+//     let m1 = parseFloat(prompt("Enter marks for subject 1:"));
+//     let m2 = parseFloat(prompt("Enter marks for subject 2:"));
+//     let m3 = parseFloat(prompt("Enter marks for subject 3:"));
+
+//     let avg = calculateAverage(m1, m2, m3);
+//     let perc = calculatePercentage(m1, m2, m3);
+
+//     console.log("Average Marks: " + avg.toFixed(2));
+//     console.log("Percentage: " + perc.toFixed(2) + "%");
+// }
+
+// // Call the main function
+// mainFunction();
+
+
+
+// function customIndexOf(str, char) {
+//     for (let i = 0; i < str.length; i++) {
+//         if (str[i] === char) {
+//             return i; // return index when character is found
+//         }
+//     }
+//     return -1; // return -1 if character not found
+// }
+
+// // Example usage
+// let inputString = prompt("Enter a string:");
+// let searchChar = prompt("Enter a character to find:");
+
+// let index = customIndexOf(inputString, searchChar);
+
+// if (index !== -1) {
+//     console.log("Character '" + searchChar + "' found at index: " + index);
+// } else {
+//     console.log("Character '" + searchChar + "' not found.");
+// }
+
+
+
+// function deleteVowels(sentence) {
+//     let result = "";
+//     let vowels = "aeiouAEIOU";
+
+//     for (let i = 0; i < sentence.length && i < 25; i++) {
+//         if (!vowels.includes(sentence[i])) {
+//             result += sentence[i];
+//         }
+//     }
+
+//     return result;
+// }
+
+// // Example usage
+// let input = prompt("Enter a sentence (max 25 characters):");
+// let noVowels = deleteVowels(input);
+// console.log("Sentence without vowels: " + noVowels);
+
+
+
+// // Convert kilometers to meters
+// function toMeters(km) {
+//     return km * 1000;
+// }
+
+// // Convert kilometers to feet
+// function toFeet(km) {
+//     return km * 3280.84;
+// }
+
+// // Convert kilometers to inches
+// function toInches(km) {
+//     return km * 39370.1;
+// }
+
+// // Convert kilometers to centimeters
+// function toCentimeters(km) {
+//     return km * 100000;
+// }
+
+// // Main program
+// let km = parseFloat(prompt("Enter distance between two cities in kilometers:"));
+
+// console.log("Distance in meters: " + toMeters(km).toFixed(2) + " m");
+// console.log("Distance in feet: " + toFeet(km).toFixed(2) + " ft");
+// console.log("Distance in inches: " + toInches(km).toFixed(2) + " in");
+// console.log("Distance in centimeters: " + toCentimeters(km).toFixed(2) + " cm");
+
+
+
+// function calculateOvertimePay(hoursWorked) {
+//     const regularHours = 40;
+//     const overtimeRate = 12.00;
+
+//     if (hoursWorked > regularHours) {
+//         let overtimeHours = hoursWorked - regularHours;
+//         return overtimeHours * overtimeRate;
+//     } else {
+//         return 0;
+//     }
+// }
+
+// // Main Program
+// let hours = parseInt(prompt("Enter total hours worked by employee:"));
+
+// if (isNaN(hours) || hours < 0) {
+//     console.log("Invalid input. Please enter a valid number of hours.");
+// } else {
+//     let overtimePay = calculateOvertimePay(hours);
+//     console.log("Overtime pay is: Rs. " + overtimePay.toFixed(2));
+// }
 
